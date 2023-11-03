@@ -21,7 +21,7 @@ from collections import OrderedDict
 
 from django.conf import settings
 from django.contrib.auth.hashers import BasePasswordHasher, mask_hash
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 _SETTINGS_MAPPING = (
     (_("rounds"), "iterations", False),
